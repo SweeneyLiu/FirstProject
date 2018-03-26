@@ -2,6 +2,7 @@ package com.firstproject;
 
 import com.facebook.react.ReactActivity;
 
+//页面继承ReactActivity，ReactActivity作为JS页面的容器。
 public class MainActivity extends ReactActivity {
 
     /**
@@ -10,6 +11,7 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
+        //返回组件名
         return "FirstProject";
     }
 }
